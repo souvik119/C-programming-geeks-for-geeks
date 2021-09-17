@@ -2,10 +2,10 @@
 #include<stdlib.h>
 
 int main(void){
-    int i, howMany; //i for looping, howMany for getting user input
+    int i, howMany = 0; //i for looping, howMany for getting user input
     int total = 0;
     float avg = 0.0;
-    int * pointsArray; //pointer to heap memory
+    int * pointsArray = 0; //pointer to heap memory
 
     printf("How many numbers do you want to average?\n");
     scanf(" %d", &howMany);
