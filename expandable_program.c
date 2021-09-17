@@ -20,5 +20,6 @@ int main(void){
 
     avg = (float)total / (float)howMany; //typecasting for better accuracy
     printf("Average is %.2f", avg);
+    free(pointsArray);
     return 0;
 }
